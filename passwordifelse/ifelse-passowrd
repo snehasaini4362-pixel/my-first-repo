@@ -1,0 +1,75 @@
+password="sneha1234@"
+attempt=0
+while attempt<3:
+    n=input("enter your password:")
+
+    if password==n:
+        print("login sucessfull")
+        break
+    else:
+        print("wrong password")
+        attempt+=1
+if attempt==3:
+    print("account locked")
+
+# sir i mostly used if-else inside the loop for filtering ,validation and decision 
+# making.  
+
+# qq.1(record valid or not)
+# age= 23
+# if age >= 18:
+#     print("record vvalid")
+# else:
+#     print("not valid")
+
+
+# qq.2(salary threshold filtering)
+# salary=50000
+# if salary>=50000:
+#     print("proces kro")
+# else:
+#     print("skip kro")
+
+
+# qq.3(data quality check)
+# marks=int(input("enter your marks:"))
+# if marks>=0 and marks<=100:
+#     print("valid")
+# else:
+#     print("not valid")
+
+
+# qq.4(duplicate record logic)
+# id=101
+# newid=int(input("enter a id:"))
+# if id == newid:
+#     print("duplicate ")
+# else:
+#     print("new record")
+
+
+# qq.5(status flag based processing)
+# status=input("enter your status:")
+# if status=="ACTIVE":
+#     print("load data")
+# else:
+#     print("ignore the data")
+
+
+# qq.6(file size check)
+# file=int(input("enter your file:"))
+# if file>100:
+#     print("batch processing")
+# else:
+#     print("normal processing")
+
+
+# qq 7.(data type validation)
+# value=int(input("enter a value:"))
+# if value>0:
+#     print("insert data")
+# else:
+#     print("reject")
+
+
+        

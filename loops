@@ -1,0 +1,117 @@
+# for i in range(1,101):
+#      if i==37:
+#         break
+# print(i)
+
+# febonacci series
+# a=0
+# b=1
+# for i in range(10):
+#     print(a)
+#     a,b=b,a+b
+
+# for i in range(1,51):
+#     if i%2==0:
+#         print(i)
+
+# for i in range(1,100):
+#     if i==37:
+#         break
+#     print(i)
+
+# for i in range(1,51):
+#     if i%5==0:
+#         continue
+#     print(i)    
+
+# n=int(input("enter a number"))
+# for i in range(1,11):
+#      print(n,"x",i,"=", n*i)
+
+# count=0
+# for i in range(1,101):
+#     if i%7==0:
+#         count=count+1
+# print("number divisible by 7:",count)
+
+# n=input("enter a string:")
+# vowels="aeiouAEIOU"
+# count=0
+# for i in n:
+#     if i in vowels:
+#         count+=1
+    
+# print(count)
+
+
+# s="elephant"
+# for i in s:
+#     print(i)
+#     if i==s[4]:
+#         break   
+
+# for i in range(1,21):
+#     if i%2!=0:
+#         continue
+#     print(i*i)
+
+# largest=0
+# for i in range(10):
+#     n=int(input("enter a number:"))
+#     if n>largest:
+#         largest=n
+
+# print("highest number is:",largest)
+
+# s=input("enter a string")
+# for i in s:
+#     if i==" ":
+#         continue
+#     print(i)
+# sum=0
+# for i in range(1,101):
+#     if i%3==0:
+#         continue
+#     sum=sum+i
+# print("sum:",sum)
+# n=int(input("enter a number"))
+# is_prime=True
+# for i in range(2,n):
+#     if n%i==0:
+#         is_prime=False
+# if is_prime:
+#     print("prime no.")
+# else:
+#     print("not a prime no.")
+# n=5
+# fact=1
+# for i in range(1,n+1):
+
+#     fact=fact*i
+# print(fact)
+
+# n="hello python programmer"
+# vowels="aeiouAEIOU"
+# count=0
+# for i in n:
+#     if i in vowels:
+#         count=count+1
+# print(count)
+
+# for i in range(1,31):
+#     if i%4==0 and i%6==0:
+#         break
+#     print(i)
+# n="python"
+# for i in range(,,-1):
+#     print(i)
+# n=int(input("enter a number"))
+# a=0
+# b=1
+# for i in range(n):
+#     print(a)
+#     a,b=b,a+b
+
+
+
+

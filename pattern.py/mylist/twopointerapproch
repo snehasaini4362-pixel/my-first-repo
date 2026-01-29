@@ -1,0 +1,34 @@
+# question.1
+# mylist=[123,500,60,400,40,400,1012,123]
+# start=0
+# end=len(mylist)-1
+# while(start<end):
+#     if(mylist[start]==mylist[end]):
+#         print("matched",mylist[start],start)
+#     else:    
+#         print("not matched",mylist[end],end)
+#     start+=1
+#     end-=1
+
+# print("final start",start)
+# print(" final end",end)    
+
+
+# 2 nd method
+mylist = [123, 500, 60, 400, 40, 500, 1012, 123]
+
+start = 0
+end = len(mylist) - 1
+
+while (start < len(mylist)-1):
+    if mylist[start] == mylist[end]:
+        print(start,end, mylist[start], mylist[end])
+        end -= 1
+        if start==end:
+            end=len(mylist)-1
+            start += 1
+
+# print("Final start:", start)
+# print("Final end:", end)
+
+        
