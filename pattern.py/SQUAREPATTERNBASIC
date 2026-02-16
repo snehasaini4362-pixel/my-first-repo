@@ -237,13 +237,13 @@
 #     print()    
 
 # qq.14
-n=4
-temp=32
-for i in range(1,n+1):
-    for j in range(1,n+1):
-        print(temp,end='')
-        temp-=2
-    print()    
+# n=4
+# temp=32
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         print(temp,end='')
+#         temp-=2
+#     print()    
 
 
 
