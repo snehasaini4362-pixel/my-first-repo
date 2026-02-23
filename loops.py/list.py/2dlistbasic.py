@@ -146,7 +146,28 @@ for i in li:
         new_list.append(j)
 print(new_list)        
 
+li=[[1,2,3],[4,5,6],[7,8,9]]
+for i in range(len(li)):
+    for j in range(len(li[i])):
+        if i==j:
+            print(li[i][j])        
+        
 
+
+daigonal print
+li=[[1,2,3],[4,5,6],[7,8,9]]
+for i in range(len(li)):
+    for j in range(len(li[i])):
+        if i==j:
+            print(li[i][j])       
+for i in range(len(li)):
+    for j in range(len(li[i])):
+        if i+j==1:
+            print(li[i][j])
+for i in range(len(li)):
+    for j in range(len(li[i])):
+        if i+j==2:
+            print(li[i][j])
 
 
 
