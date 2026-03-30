@@ -180,7 +180,7 @@ def display(self):
         # getter
 def balance_display(self):  
     balance=self.__balance
-    print(self.__balance)  
+    print(balance)  
     # setter 
 def change_pin(self,newpin):
     self._pin=newpin
@@ -201,6 +201,28 @@ holder2.change_pin(2345)
 holder2.change_pin()
 holder3.change_pin(5678)
 holder3.change_pin()
+
+# qq.2
+class employee:
+    def __init__(self,name ,designation ,salary, location):
+        self.emp_name=name
+        self.emp_post=designation
+        self.salary=salary
+        self.location=location
+    def check_salary(self):
+        salary=self.__salary
+        print(f'the current salary is:{salary}')
+    def change_salary(self,new_salary):
+        self.__salary=new_salary
+        print('new salary updated!')
+    emp1=employee('ajay','ml engineer',25,'jaipur')
+    emp1.check_salary()
+    print(emp1.emp_name)
+    print(emp1.emp_post)
+    # changed salry
+    emp1.change_salary(30)
+    # changed salry acess
+    emp1.check_salary()            
 
 
 
